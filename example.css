@@ -1,0 +1,121 @@
+
+.musicbox{
+  width:100%;
+	
+	background-color: rgba(0,0,0,0.8);
+  border: rgba(0,0,0,0.8) solid 1px;
+  border-radius: 15px;
+	color: rgba(256,256,256,0.8);
+	font-family: Helvetica, Arial;
+	font-size: 5vmin;
+	border-radius: 10px;
+	width: 100%;
+	height: 100%;
+	text-align: left;
+	padding: 10px;
+	
+	transition: 1s;
+	opacity: 0;
+	
+}
+
+.mloaded{
+	opacity:1;
+}
+
+.coverimgtd{
+	text-align: center;
+}
+.coverimg{
+	border: rgba(0,0,0,0) 1px solid;
+	border-radius: 15px;
+	margin-top: 20px;
+}
+
+.songinfocont{
+	font-size:4vh;
+	margin: 0px 20px;
+	margin-bottom: 10px;
+}
+.songinfostatus{
+	margin-bottom: 10px;
+	font-weight: bold;
+}
+
+.songinfosong{
+	font-weight: bold;
+	font-size:5vh;
+}
+
+.songunder{
+	font-weight: lighter;
+	margin: 20px 0px;
+	font-size:16px;
+	cursor: pointer;
+	display: inline-block;
+}
+
+.left{
+	text-align:left;
+	float:left;
+}
+
+.right{
+	text-align:right;
+	float:right;
+}
+
+.songinfoartist{
+	font-weight: lighter;
+	margin-bottom: 10px;
+}
+
+.songinfosong:hover, .songinfoartist:hover{
+	cursor: pointer;
+	background-color: #d3b3ff;
+}
+
+
+.songinfoplayerprogressback{
+	border: 0.10em solid #333; 
+	height: 1em; 
+	border-radius: 15px; 
+}
+
+.songinfoplayerprogress{
+	border: 0.1em solid #60e; 
+	border-radius: 12px; 
+	transition: width 2s;
+	z-index:-1;
+	background-color: #60e;
+	height: 0.9em;
+	transition: width 2s;
+
+	max-width: 97%;
+}
+
+.songinfoplayertime{
+	margin-top:5px;
+	text-align: center;
+}
+
+@media screen and (max-width: 1200px) {
+
+  .misccont,.textcont{
+  	float:none;
+		max-width: 100%;
+		width: 100%;
+		boder-left: none;
+	}
+
+	.songinfocont{
+		font-size:10vw;
+	}
+	.songinfostatus{
+		font-size:5vw;
+	}
+	.songinfoartist{
+		font-size:5vw;
+	}
+	
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width">
+		<title>spotinfo.js</title>
+	
+		
+		<link href="example.css" rel="stylesheet" type="text/css" />
+	
+	
+	</head>
+
+	<body>
+		<table id="player" class="musicbox">
+			<tr>
+				<td class="coverimgtd">
+					<img id="player-album-art" class="coverimg" />
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<div class="songinfocont">
+						<div id="player-status" class="songinfostatus"></div>
+						<div id="player-song" class="songinfosong"></div>
+						<div id="player-artist" class="songinfoartist"></div>
+				</td>
+			</tr>
+			<tr>
+				<td colspan="2" id="player-pt">
+
+					<div id="player-progress-back" class="songinfoplayerprogressback">
+						<div id="player-progress" class="songinfoplayerprogress"></div>
+					</div>
+					<div id="player-time" class="songinfoplayertime"></div>
+				</td>
+			</tr>
+			<tr>
+				<td class="songunder left" onclick="location.reload();"> stuck? click me</td> <td class="songunder right" onclick="location.href='https://github.com/fluffy-git/spotinfo.js'" > source</td>
+			</tr>
+		</table>
+		
+		<script src="spotinfo.js"></script>
+		
+	</body>
+
+</html>
