@@ -1,5 +1,5 @@
-var serviceHost = "https://spotify-listening-to-worker.eduardgavrila475204.workers.dev/"; // worker url
-var spotifyUser = "fluffy"; //username, doesnt need to be the actual name of the user
+var serviceHost = "https://spotify-listening-to-worker.eduardgavrila475204.workers.dev/";
+var spotifyUser = "fluffy";
 
 var songData, progressSeconds, totalSeconds, progressInterval;
 
@@ -14,10 +14,17 @@ function updatePlayer() {
 					"player-song"
 				).innerHTML = `${spotifyUser} isn't playing anything.`;
 				document.getElementById("player-artist").innerHTML = "  ";
-				document.getElementById("player-pt").setAttribute("style", "display: none;");
 
+				document.getElementById("player-pt").setAttribute("style", "display: none;");
+				document.getElementById("player-album-art").setAttribute("style", "display: none;");
+				
+				
 				sleep(500);
 				updatePlayer();
+			}
+			else{
+				document.getElementById("player-pt").setAttribute("style", "display: inline;");
+				document.getElementById("player-album-art").setAttribute("style", "display: inline;");
 			}
 
 			songData = data;
@@ -41,7 +48,7 @@ function updatePlayer() {
 				);
 
 
-			progressSeconds = Math.ceil(songData.progress_ms / 1000);
+			progressSeconds = Math.ceil((songData.progress_ms / 1000)-2);
 			totalSeconds = Math.ceil(songData.item.duration_ms / 1000);
 
 			
