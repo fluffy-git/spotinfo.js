@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   height="167.48299"
+   width="647.15979"
+   version="1.1"
+   viewBox="0 0 647.15979 167.48299"
+   id="svg1489"
+   sodipodi:docname="spotinfo.js.mini.svg"
+   inkscape:version="1.2.2 (732a01da63, 2022-12-09)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1493" />
+  <sodipodi:namedview
+     id="namedview1491"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#505050"
+     showgrid="false"
+     inkscape:zoom="4.9345238"
+     inkscape:cx="91.19421"
+     inkscape:cy="90.991556"
+     inkscape:window-width="2560"
+     inkscape:window-height="1009"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg1489" />
+  <path
+     fill="#1ED760"
+     d="M 83.743,-1.001358e-8 C 37.494,-1.001358e-8 0,37.493 0,83.742 c 0,46.251 37.494,83.741 83.743,83.741 46.254,0 83.744,-37.49 83.744,-83.741 0,-46.246 -37.49,-83.73800001 -83.745,-83.73800001 z M 122.147,120.78 c -1.5,2.46 -4.72,3.24 -7.18,1.73 -19.662,-12.01 -44.414,-14.73 -73.564,-8.07 -2.809,0.64 -5.609,-1.12 -6.249,-3.93 -0.643,-2.81 1.11,-5.61 3.926,-6.25 31.9,-7.291 59.263,-4.15 81.337,9.34 2.46,1.51 3.24,4.72 1.73,7.18 z m 10.25,-22.805 c -1.89,3.075 -5.91,4.045 -8.98,2.155 -22.51,-13.839 -56.823,-17.846 -83.448,-9.764 -3.453,1.043 -7.1,-0.903 -8.148,-4.35 -1.04,-3.453 0.907,-7.093 4.354,-8.143 30.413,-9.228 68.222,-4.758 94.072,11.127 3.07,1.89 4.04,5.91 2.15,8.976 z m 0.88,-23.744 C 106.287,58.2 61.757,56.726 35.988,64.547 31.85,65.802 27.474,63.466 26.22,59.328 c -1.254,-4.14 1.08,-8.513 5.221,-9.771 29.581,-8.98 78.756,-7.245 109.83,11.202 3.73,2.209 4.95,7.016 2.74,10.733 -2.2,3.722 -7.02,4.949 -10.73,2.739 z"
+     id="path1487"
+     style="fill:#7b1ed7;fill-opacity:1" />
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:96px;font-family:'Arial Rounded MT Bold';-inkscape-font-specification:'Arial Rounded MT Bold, ';white-space:pre;inline-size:576.583;display:inline;fill:#8dd61e;fill-opacity:1;image-rendering:auto"
+     x="82.480095"
+     y="70.320869"
+     id="text4006"
+     transform="translate(88.898046,40.869434)"><tspan
+       x="82.480095"
+       y="70.320869"
+       id="tspan8613">spotinfo.js</tspan></text>
+</svg>
