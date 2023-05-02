@@ -1,3 +1,5 @@
+![spotinfo.js logo](spotinfo.js.full.svg "").
+
 # Spotinfo.js
 
 Spotinfo.js is a fork of [Naushikha's](https://github.com/Naushikha) **[Spotify-Widget](https://github.com/Naushikha/Spotify-Widget)** which is an open source spotify listening info widget made in html,css and js.
