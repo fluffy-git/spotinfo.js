@@ -84,7 +84,7 @@
 
 .songinfosong:hover, .songinfoartist:hover{
 	cursor: pointer;
-	background-color: #d3b3ff;
+	color: #d3b3ff;
 }
 
 
