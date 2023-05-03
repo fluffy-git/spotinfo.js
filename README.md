@@ -16,3 +16,6 @@ This Project underlies the [AGPL-3.0 license](https://github.com/fluffy-git/spot
  The html and css part can be directly implanted into any website. The spotinfo.js file needs to be put somewhere into the websites folder structure and the worker.js is the code for the worker, which you can essentially just copy paste into your worker.
  
  Further instructions can be found [here](https://blog.naushikha.com/2021/05/lets-deploy-your-own-spotify-widget.html)
+ 
+ 
+ # NOTE: THIS PROJECT IS NOT AFFILIATED WITH SPOTIFY IN ANY WAY
