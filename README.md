@@ -11,7 +11,7 @@ This Project underlies the [AGPL-3.0 license](https://github.com/fluffy-git/spot
 
  You can find a live demo [here](https://tbox.fluffy-git.repl.co/about/about.html).
  
- # Instalation
+ # Installation
  
  The html and css part can be directly implanted into any website. The spotinfo.js file needs to be put somewhere into the websites folder structure and the worker.js is the code for the worker, which you can essentially just copy paste into your worker.
  
