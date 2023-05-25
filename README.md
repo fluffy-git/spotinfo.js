@@ -1,4 +1,4 @@
-![spotinfo.js logo](spotinfo.js.full.svg "").
+![spotinfo.js logo](spotinfo.js.full.svg "")
 
 # Spotinfo.js
 
