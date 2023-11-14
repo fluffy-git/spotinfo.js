@@ -5,6 +5,8 @@ var songData, progressSeconds, totalSeconds, progressInterval;
 
 const sleep = ms => new Promise(r => setTimeout(r, ms));
 
+document.addEventListener('focusin', updatePlayer);
+
 function updatePlayer() {
 	fetch(`${serviceHost}/get-now-playing`)
 		.then((response) => response.json())
